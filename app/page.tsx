@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import { searchFoods, type FoodItem } from '@/data/foods'
+import { searchFoods, foodDatabase, type FoodItem } from '@/data/foods'
 
 function getDaysLabel(days: number): string {
   if (days === 0) return '不易变质'
